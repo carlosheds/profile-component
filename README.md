@@ -1,3 +1,10 @@
+# Choices
+## Mobile
+Usei ```display:flex;``` e ```flex-direction:column;``` num ```<main>``` que continha todos os items da pagina.<p> Coloquei a imagem do início dentro de uma  ```<div>``` e utilizei ```border-radius:50%;``` para poder deixar num formato redondo.<p>Os itens Projetos,Estrelas e Seguidores coloquei dentro de uma ```<section>``` e apliquei ```width:60vw;``` para que os itens possam aumentar de tamanho conforme a janela do browser for aumentando.
+
+# Credits
+<details>
+<p>
 <br />
 <p align="center">
     <img src="https://i.ibb.co/Pr8wRn4/profile.gif" alt="Logo" width="1000">
@@ -81,3 +88,7 @@ Discord: https://discord.gg/yvYXhGj <br>
 Linkedin: https://www.linkedin.com/company/devchallenge/<br>
 Twitter: https://twitter.com/dev_challenge<br>
 Instagram: https://www.instagram.com/devchallenge/<br>
+
+</p>
+</details>
+
