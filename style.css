@@ -1,0 +1,124 @@
+:root {
+    --mainBlack:#0C0B0B;
+    --mainGray:#0F0E0E;
+    --mainWhite: #B7B7B7;
+    --mainGreen: #046313;
+    --mainBlue: #044A7D;
+    --mainYellow: #725200;
+    --mainFont:Rubik,sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    color:var(--mainWhite);
+    text-decoration: none;
+    text-align: center;
+    font-family: var(--mainFont);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--mainBlack);
+    padding: 40px 0;
+    height: 100vh;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.user .image {
+    background-color: var(--mainGray);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+}
+
+.user .image img {
+    align-self: center;
+    justify-self: center;
+}
+
+
+.user h3 {
+    font-size: 2.4rem;
+}
+
+.user a {
+    font-size: 1.3rem;
+}
+
+.user div:last-child {
+    display: inline-block;
+    margin: 15px 0;
+}
+
+.user div a:first-child {
+    background-color:var(--mainGray);
+    padding: 8px 10px;
+
+    border-radius: 5px;
+    font-weight: bold;
+}
+.user div a i {
+    margin-right: 5px;
+    font-size: 1.8rem;
+}
+
+.info {
+    width: 60vw;
+}
+
+.info div {
+    margin: 18px 0;
+    padding: 15px 20px 10px 20px;
+    border-radius: 5px;
+
+}
+
+.info h4 {
+    font-size: 1.4rem;
+    text-align: left;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+.info div span {
+    display: inline;
+    font-size: 3.6rem;
+    font-weight: bold;
+    text-align: left;
+    display: block;
+}
+
+.projects {
+    background-color: var(--mainGreen);
+}
+
+.stars {
+    background-color: var(--mainBlue);
+}
+
+.followers {
+    background-color: var(--mainYellow);
+}
+
+@media(min-width:769px) {
+    .info {
+        display: flex;
+    }
+}
