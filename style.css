@@ -118,7 +118,35 @@ html {
 }
 
 @media(min-width:769px) {
-    .info {
+    .container {
+        justify-content: center;
+    }
+
+    .user {
+        flex-direction: row;
+        width: 55vw;
+        margin-bottom: 30px;
+    }
+
+    .user .image {
+        margin: 0;
+    }
+
+    .user .user-name.media{
+        text-align: left;
+        flex-grow: 1;
+    }
+
+    .user .user-name.media h3 {
+        text-align: left;
+    }
+
+    .info { 
         display: flex;
+        justify-content: space-evenly;
+    }
+
+    .info div {
+        width: 30%;
     }
 }
